@@ -1,3 +1,13 @@
+Abaixo de como configurar o site e rodar localmente.
+
+irei hospedar nesse site Open [https://hubdeferramentas.vercel.app/](https://hubdeferramentas.vercel.app/) no Brownser, ainda em construção.
+
+
+
+
+
+//////////////;;;;;;;;;;;;;;;;;;;;;/////////
+
 This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
 
 ## Getting Started
