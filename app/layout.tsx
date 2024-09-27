@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import MenuLateral from "@/app/components/menu/MenuLateral";
 
 export const metadata: Metadata = {
   title: "HUB DE FERRAMENTAS",
@@ -13,7 +14,21 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="pt-br">
-      <body>{children}</body>
+      <body>
+        <div className="flex fundo-apresentacao">
+          <div className="md:w-[360px]">
+            <MenuLateral />
+          </div>
+          <div >
+            <div className="h-[40px] items-center p-2 justify-center text-white   bg-blue-400">
+              <strong>
+                HUB DE FERRAMENTAS - FERRAMENTAS DIGITAIS COM USO ILIMITADO
+              </strong>
+            </div>
+            <div>{children}</div>
+          </div>
+        </div>
+      </body>
     </html>
   );
 }
